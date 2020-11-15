@@ -1,3 +1,4 @@
+from pprint import pprint
 class MyRouter(object):
     """ This is my first class
     """
@@ -17,4 +18,15 @@ class MyRouter(object):
         
 #create MyRouter Object and test
 AbujaRouter = MyRouter('Cisco', 'c1500', 888444, 13.5, '20/10/2020')
-print(AbujaRouter.print_router(2013))
+pprint(AbujaRouter.print_router(2013))
+
+
+#Adding  a datastructre for devices
+
+# device = {
+#   "name" : "WAN-R1"
+#   "model" : "4500"
+#   "OS": "Cisco IOS"
+#   "OS Version" : "12.4"
+#   "Serial Number": "00192-102930-293920"
+# }
